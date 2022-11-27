@@ -38,3 +38,5 @@ env.bak/
 venv.bak/
 
 *.code-workspace
+
+secrets.json
