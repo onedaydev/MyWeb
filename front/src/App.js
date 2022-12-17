@@ -1,30 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// routes
+import Router from './routes';
+// theme
+import ThemeProvider from './theme';
+// components
+import ScrollToTop from './components/scroll-to-top';
+import { StyledChart } from './components/chart';
 
-function App() {
+// ----------------------------------------------------------------------
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="http://localhost:8000/login/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Login
-        </a>
-        <a
-          className="App-link"
-          href="http://localhost:8000/logout/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Logout
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <ScrollToTop />
+      <StyledChart />
+      <Router />
+    </ThemeProvider>
   );
 }
-
-export default App;
