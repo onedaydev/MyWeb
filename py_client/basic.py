@@ -9,8 +9,8 @@ import requests
 # put_response = requests.put(endpoint, data=test_data)
 # print(put_response)
 
-# endpoint = "http://127.0.0.1:8000/todo/"
-# test_data = {'title':'test1','description':'test1'}
+# endpoint = "http://127.0.0.1:30080/todo/"
+# test_data = {'label':'test1','description':'test1'}
 # post_response = requests.post(endpoint, data=test_data)
 # print(post_response)
 
