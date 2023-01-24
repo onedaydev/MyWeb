@@ -6,7 +6,7 @@
 - Todo
 - Jenkins & Dockerfile
 ### py_client 
-- Test
+- This is made for Test
 ### react
 - None
 
