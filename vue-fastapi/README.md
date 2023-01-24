@@ -1,7 +1,5 @@
 # Developing a Single Page App with FastAPI and Vue.js
 
-## Want to use this project?
-
 Build the images and spin up the containers:
 
 ```sh
