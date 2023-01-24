@@ -18,4 +18,5 @@ Apply the migrations:
 $ docker-compose exec backend aerich upgrade
 ```
 frontend : [http://localhost:8080](http://localhost:8080) 
+
 backend : [http://localhost:5000](http://localhost:5000), [http://localhost:5000/docs](http://localhost:5000/docs)
